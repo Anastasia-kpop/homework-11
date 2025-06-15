@@ -64,3 +64,152 @@
         width: 275px;
     }
 }
+
+@media (max-width: 792px) {
+
+main img {
+    margin-left: 30px;
+    width: 215px;
+}
+
+.divz {
+    width: 295px;
+    margin-left: 10px;
+}
+
+.divu {
+    line-height: 200%;
+    margin: 0px 50px;
+}
+
+.divp {
+    line-height: 200%;
+    margin: 0px 50px;
+}
+
+.divc {
+    line-height: 200%;
+    margin-left: 15px;
+    margin-right: 60px;
+}
+
+.p {
+    margin-left: 90px;
+}
+
+.h3 {
+    margin-left: 90px;
+}
+
+.h {
+    margin-left: 90px;
+}
+
+.info {
+    margin-left: 13px;
+    display: block;
+}
+}
+
+@media (max-width: 768px) {
+    main img {
+        margin-left: 25px;
+        width: 215px;
+    }
+
+    textarea {
+        width: 710px;
+        height: 298px;
+        padding-left: 21px;
+        padding-top: 23px;
+        font-size: 14px;
+        font-weight: 700;
+        border: 2px solid;
+        resize: none;
+        background-color: #f8f8f8;
+        border-color: #d4d3d3;
+    }
+
+    .info {
+        margin-left: 20px;
+        display: block;
+    }
+
+    .wrapper {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .p {
+        margin-left: 45px;
+    }
+    
+    .h3 {
+        margin-left: 45px;
+    }
+    
+    .h {
+        margin-left: 45px;
+    }
+
+    textarea {
+        width: 425px;
+        height: 298px;
+        padding-left: 21px;
+        padding-top: 23px;
+        font-size: 14px;
+        font-weight: 700;
+        border: 2px solid;
+        resize: none;
+        background-color: #f8f8f8;
+        border-color: #d4d3d3;
+    }
+
+    .reg {
+        width: 370px;
+        display: block;
+        margin-left: 30px;
+        margin-top: 50px;
+    }
+
+    .wrapper {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+
+    main img {
+        margin-left: 114px;
+        width: 237px;
+        margin-bottom: 30px;
+    }
+
+    .divp {
+        line-height: 200%;
+        margin: 0px 5px;
+    }
+
+    .divu {
+        line-height: 200%;
+        margin: 0px 12px;
+    }
+
+    .divc {
+        line-height: 200%;
+        margin-left: 15px;
+        margin-right: 10px;
+    }
+
+    .h3 {
+        margin-left: 45px;
+        width: 400px;
+    }
+
+}
+
